@@ -142,3 +142,66 @@ header .bg-cover .left-section {
   margin-top: 24px;
   cursor: pointer;
 }
+
+footer {
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+footer .about {
+  margin: 130px 0 130px 230px;
+  width: 485px;
+  height: 317px;
+}
+
+footer .about h2 {
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+footer .about p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer .about img {
+  margin-right: 17px;
+}
+
+footer .mail {
+  margin: 130px 230px 243px 0;
+  width: 325px;
+  height: 204px;
+}
+
+footer .mail h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+
+.mail input[type="email"] {
+  font-size: 18px;
+  color: black;
+  padding: 21px 158px 22px 21px;
+  border: none;
+  border-radius: 8px;
+  width: 325px;
+  height: 61px;
+  margin-bottom: 16px;
+}
+
+.mail button {
+  width: 170px;
+  height: 64px;
+  background-color: #ffffff;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border-radius: 8px;
+  cursor: pointer;
+}
